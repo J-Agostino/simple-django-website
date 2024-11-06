@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juan's introduction | Django</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static '/css/main.css' %}">
+
+
+</head>
+<body>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card card-body h-100 principal" id="profile-warpper">
+                    <img id="profile-pic" src="{% static '/images/juan-guitarra.jpg' %}" alt="juan playing guitar">
+                    <hr>
+                    <h4>Hi, I'm Juan!</h4>
+                    <p>I like music, languages and traveling.</p>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="card card-body h-100 principal">
+                    <h4>My first Django website</h4>
+                    <hr>
+                    <p>After few months without practicing coding I decided to return to my studies. Now thanks to <a href="https://www.youtube.com/watch?v=pLN-OnXjOJg" target="_blank">Dennis Ivy's Tutorial</a> I'm able to present myself with this site.</p>
+
+                    <p>Although my strongest skill is music, playing guitar, bass, and piano, and having a general interest in music production, I'm eager to delve deeper into programming and computer science. Something that I've been doing for pretty much my whole life, since kid that I'm linked to computers.</p>
+
+                    <p>Follow me to be part of my progress!</p>
+
+                    <ul class="social-links">
+                        <li><a href="https://github.com/J-Agostino" target="_blank" rel="noopener noreferrer"><img class="social" src="{% static 'images/Github_black.png' %}" alt="social link"></a></li>
+                        <li><a href="https://www.instagram.com/jagostino_" target="_blank" rel="noopener noreferrer"><img class="social" src="{% static 'images/Instagram_black.png' %}" alt="social link"></a></li>
+                        <li><a href="https://www.linkedin.com/in/juan-agostino2/" target="_blank" rel="noopener noreferrer"><img class="social" src="{% static 'images/LinkedIN.png' %}" alt="social link"></a></li>
+                        <li><a href="https://soundcloud.com/jagostino" target="_blank" rel="noopener noreferrer"><img class="social" src="{% static 'images/Spotify.png' %}" alt="social link"></a></li>
+                        <li><a href="https://www.youtube.com/@jagostino2164" target="_blank" rel="noopener noreferrer"><img class="social" src="{% static 'images/Youtube.png' %}" alt="social link"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+<br>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body h-100 transparent">
+                    <h5>My travels</h5>
+                    <hr>
+                    <p>In 2021 I was in Turkey, Bosnia & Herzegovina, Montenegro, Albania, Montenegro, Croatia, Slovenja, Italy, 
+                        Switzerland, Germany, Luxemburg and Serbia. I was playing music with my brother under <a href="https://www.instagram.com/the.karocans/" target="_blank">Karocans</a>.</p>
+                    <p>The music gave us wings, and our friends shelter and energy ♥️ </p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card card-body h-100 transparent">
+                    <h5>Music career</h5>
+                    <hr>
+                    <p>I started playing guitar when I was 5yo. and never stopped. Studied in the university before traveling, while making some recordings and audio editing for <a href="https://www.youtube.com/@losliberales" target="_blank" rel="noopener noreferrer">Los Liberales</a> and for my own projects (music that you can hear on my links).</p>
+                    <p>In summer of 2024 I worked for a restaurant playing and singing popular songs.</p>
+                </div>
+            </div>
+        </div>
+<br>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body h-100 transparent">
+                    <h5>Computer Sience</h5>
+                    <hr>
+                    <p>I like to think that I'm a freak. One of those persons who are always with the computer learning about computers and related topics, talking about linux and open software. I like to repair laptops and take care of my electronic gear.</p>
+                    <p>I took courses about Cybersecurity, HTML/CSS, JavaScript, Python and Data Analysis.</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card card-body h-100 transparent">
+                    <h5>What's next?</h5>
+                    <hr>
+                    <p>Currently I'm away from my hometown, learning new languages (I speak Spanish, English and Italian), cultures, having good time with new and old friends. I aspire to get a place in the tech industry and be able to work and travel.</p>
+                    <p>If you'd like to know more about me don't doubt to follow me on my social media!</p>
+                </div>
+            </div>
+        </div>
+    </div>    
+<br>
+</body>
+</html>
